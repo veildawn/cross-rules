@@ -12,6 +12,7 @@ cross-rules/
     ├── developer.list
     ├── intl-dns.list
     ├── lan.list
+    ├── social.list          # 社交媒体规则
     └── streaming/           # 流媒体规则 (分服务配置)
         ├── netflix.list
         ├── disney.list
@@ -35,6 +36,7 @@ cross-rules/
 | `mihomo/developer.list` | 程序员常用网站 |
 | `mihomo/intl-dns.list` | 国际 DNS 服务 |
 | `mihomo/lan.list` | 局域网 IPv4/IPv6 |
+| `mihomo/social.list` | 社交媒体 |
 
 ### 流媒体规则
 

@@ -1,0 +1,192 @@
+# =============================================
+# 社交媒体规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-01-09
+# =============================================
+
+# =============================================
+# Twitter / X
+# =============================================
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,twimg
+
+# =============================================
+# Telegram
+# =============================================
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,core.telegram.org
+IP-CIDR,91.108.0.0/16,no-resolve
+IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
+
+# =============================================
+# Discord
+# =============================================
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordcdn.com
+DOMAIN-SUFFIX,discord.co
+DOMAIN-KEYWORD,discord
+
+# =============================================
+# Facebook
+# =============================================
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fbcdn.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbaddins.com
+DOMAIN-SUFFIX,fbworkmail.com
+DOMAIN-SUFFIX,workplace.com
+DOMAIN-KEYWORD,facebook
+
+# =============================================
+# Instagram
+# =============================================
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-KEYWORD,instagram
+
+# =============================================
+# WhatsApp
+# =============================================
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,wa.me
+DOMAIN-KEYWORD,whatsapp
+
+# =============================================
+# Threads (Meta)
+# =============================================
+DOMAIN-SUFFIX,threads.net
+
+# =============================================
+# Messenger (Meta)
+# =============================================
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,messengerdevelopers.com
+
+# =============================================
+# Line
+# =============================================
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,line.naver.jp
+DOMAIN-SUFFIX,linecorp.com
+DOMAIN-SUFFIX,linevoom.me
+DOMAIN-KEYWORD,line
+
+# =============================================
+# Snapchat
+# =============================================
+DOMAIN-SUFFIX,snapchat.com
+DOMAIN-SUFFIX,snap.com
+DOMAIN-SUFFIX,snapkit.co
+DOMAIN-SUFFIX,snapads.com
+DOMAIN-SUFFIX,sc-cdn.net
+DOMAIN-SUFFIX,sc-jpl.com
+DOMAIN-SUFFIX,sc-static.net
+DOMAIN-SUFFIX,bitmoji.com
+DOMAIN-KEYWORD,snapchat
+
+# =============================================
+# Pinterest
+# =============================================
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,pinimg.com
+DOMAIN-SUFFIX,pinterest.co.uk
+DOMAIN-SUFFIX,pinterest.de
+DOMAIN-SUFFIX,pinterest.fr
+DOMAIN-KEYWORD,pinterest
+
+# =============================================
+# LinkedIn
+# =============================================
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,linkedin.cn
+DOMAIN-KEYWORD,linkedin
+
+# =============================================
+# Clubhouse
+# =============================================
+DOMAIN-SUFFIX,clubhouseapi.com
+DOMAIN-SUFFIX,joinclubhouse.com
+
+# =============================================
+# Mastodon (部分实例)
+# =============================================
+DOMAIN-SUFFIX,mastodon.social
+DOMAIN-SUFFIX,mastodon.online
+DOMAIN-SUFFIX,mstdn.jp
+DOMAIN-SUFFIX,pawoo.net
+
+# =============================================
+# Signal
+# =============================================
+DOMAIN-SUFFIX,signal.org
+DOMAIN-SUFFIX,signal.art
+DOMAIN-SUFFIX,signal.foundation
+DOMAIN-SUFFIX,signalusers.org
+DOMAIN-SUFFIX,whispersystems.org
+
+# =============================================
+# Kakao (韩国)
+# =============================================
+DOMAIN-SUFFIX,kakao.com
+DOMAIN-SUFFIX,kakaocdn.net
+DOMAIN-SUFFIX,kakaocorp.com
+
+# =============================================
+# VK (俄罗斯)
+# =============================================
+DOMAIN-SUFFIX,vk.com
+DOMAIN-SUFFIX,vkuservideo.net
+DOMAIN-SUFFIX,vk.me
+
+# =============================================
+# 规则说明:
+# - DOMAIN-SUFFIX: 匹配域名后缀
+# - DOMAIN-KEYWORD: 匹配域名关键词
+# - IP-CIDR: IPv4 地址段匹配 (Telegram)
+# - IP-CIDR6: IPv6 地址段匹配 (Telegram)
+#
+# 使用方式 (在 mihomo 配置中):
+# rule-providers:
+#   social:
+#     type: http
+#     behavior: classical
+#     url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/social.list"
+#     path: ./ruleset/social.list
+#     interval: 86400
+#
+# rules:
+#   - RULE-SET,social,代理策略组
+# =============================================
