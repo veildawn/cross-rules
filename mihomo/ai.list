@@ -5,6 +5,12 @@
 # =============================================
 
 # ---------------------------------------------
+# ChatGPT UDP/QUIC 流量 (优先匹配)
+# ---------------------------------------------
+IP-CIDR,104.18.39.85/32,no-resolve
+IP-CIDR,172.64.148.171/32,no-resolve
+
+# ---------------------------------------------
 # OpenAI - ChatGPT, GPT-4, DALL-E, Whisper 等
 # ---------------------------------------------
 DOMAIN-SUFFIX,openai.com
@@ -14,10 +20,7 @@ DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN,chat.openai.com.cdn.cloudflare.net
-# ChatGPT 辅助服务
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
-IP-CIDR,104.18.39.85/32,no-resolve
-IP-CIDR,172.64.148.171/32,no-resolve
 
 # ---------------------------------------------
 # Anthropic - Claude AI
