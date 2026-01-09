@@ -10,6 +10,7 @@ cross-rules/
 └── mihomo/                # mihomo 规则集
     ├── ai.list            # AI 网站与工具规则
     ├── developer.list     # 程序员常用网站规则
+    ├── dns.list           # 国外 DNS 服务规则
     └── lan.list           # 局域网 / 私有网络规则
 ```
 
@@ -19,6 +20,7 @@ cross-rules/
 |------|------|
 | `mihomo/ai.list` | AI 网站与工具 |
 | `mihomo/developer.list` | 程序员常用网站 |
+| `mihomo/dns.list` | 国外 DNS 服务 |
 | `mihomo/lan.list` | 局域网 IPv4/IPv6 |
 
 ## 使用方式
