@@ -18,7 +18,6 @@ DOMAIN,hlsamp.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
 
 # Apple TV+ API
-DOMAIN,amp-api-edge.apps.apple.com
 DOMAIN,uts-api.itunes.apple.com
 
 # 其他 Apple TV 相关
