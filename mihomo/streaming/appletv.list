@@ -8,18 +8,18 @@
 # 建议: 相对宽松，大部分节点可用
 # =============================================
 
+# Apple TV+ 主站
 DOMAIN-SUFFIX,tv.apple.com
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple-livephotoskit.com
-DOMAIN-SUFFIX,appletvapp.apple
-DOMAIN,play.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
+
+# Apple TV+ 视频流
 DOMAIN,hls.itunes.apple.com
 DOMAIN,hls-amt.itunes.apple.com
 DOMAIN,hlsamp.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+
+# Apple TV+ API
 DOMAIN,amp-api-edge.apps.apple.com
 DOMAIN,uts-api.itunes.apple.com
-DOMAIN-SUFFIX,apple.comscoreresearch.com
-DOMAIN-SUFFIX,applemusic.com
+
+# 其他 Apple TV 相关
+DOMAIN-SUFFIX,appletvapp.apple
