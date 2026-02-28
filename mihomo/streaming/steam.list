@@ -1,0 +1,88 @@
+# =============================================
+# Steam 商城规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-02-28
+#
+# 节点要求: 普通代理节点即可
+# 解锁难度: ⭐ (极简)
+# 建议: 用于访问 Steam 商店、社区、游戏下载
+# =============================================
+
+# =============================================
+# Steam 主站与账号服务
+# =============================================
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steamspy.com
+DOMAIN-SUFFIX,steamstat.us
+DOMAIN-SUFFIX,steamstatus.org
+DOMAIN-SUFFIX,steamsupport.com
+
+# =============================================
+# Steam 社区与创意工坊
+# =============================================
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
+
+# =============================================
+# Steam 静态资源 & CDN
+# =============================================
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,edgecast.net
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+DOMAIN-KEYWORD,steamcdn
+DOMAIN-KEYWORD,steamstatic
+
+# =============================================
+# SteamDB & 第三方工具
+# =============================================
+DOMAIN-SUFFIX,steamdb.info
+DOMAIN-SUFFIX,steamprices.com
+DOMAIN-SUFFIX,gg.deals
+DOMAIN-SUFFIX,isthereanydeal.com
+DOMAIN-SUFFIX,enhancedsteam.com
+DOMAIN-SUFFIX,augmented-steam.com
+
+# =============================================
+# Valve 相关服务
+# =============================================
+DOMAIN-SUFFIX,valvesoftware.com
+DOMAIN-SUFFIX,valvecdn.com
+DOMAIN-SUFFIX,half-life.com
+DOMAIN-SUFFIX,dota2.com
+DOMAIN-SUFFIX,teamfortress.com
+DOMAIN-SUFFIX,counter-strike.net
+DOMAIN-SUFFIX,csgo.com
+DOMAIN-SUFFIX,deadlock.com
+DOMAIN-SUFFIX,underlords.com
+
+# =============================================
+# Steam 语音 & 通信
+# =============================================
+DOMAIN-SUFFIX,steamchat.com
+
+# =============================================
+# Steam 支付服务
+# =============================================
+DOMAIN-SUFFIX,steam-wallet.net
+
+# =============================================
+# 规则说明:
+# - DOMAIN-SUFFIX: 匹配域名后缀
+# - DOMAIN-KEYWORD: 匹配域名关键词
+#
+# 使用方式 (在 mihomo 配置中):
+# rule-providers:
+#   steam:
+#     type: http
+#     behavior: classical
+#     url: "https://raw.githubusercontent.com/veildawn/cross-rules/main/mihomo/streaming/steam.list"
+#     path: ./ruleset/steam.list
+#     interval: 86400
+#
+# rules:
+#   - RULE-SET,steam,代理策略组
+# =============================================
