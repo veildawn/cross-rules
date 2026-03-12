@@ -281,6 +281,12 @@ DOMAIN-SUFFIX,datadoghq.com
 DOMAIN-SUFFIX,grafana.com
 DOMAIN-SUFFIX,grafana.net
 
+# ---------------------------------------------
+# Brave Browser - 隐私浏览器
+# ---------------------------------------------
+DOMAIN-SUFFIX,brave.com
+DOMAIN-SUFFIX,brave.software
+
 # =============================================
 # API 与第三方服务
 # =============================================
