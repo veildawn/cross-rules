@@ -1,0 +1,29 @@
+# =============================================
+# Claude / Anthropic 规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-03-20
+# =============================================
+
+# ---------------------------------------------
+# Anthropic - Claude AI
+# ---------------------------------------------
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+
+# =============================================
+# 规则说明:
+# - DOMAIN-SUFFIX: 匹配域名后缀
+# - DOMAIN: 精确匹配完整域名
+#
+# 使用方式 (在 mihomo 配置中):
+# rule-providers:
+#   claude:
+#     type: http
+#     behavior: classical
+#     url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/claude.list"
+#     path: ./ruleset/claude.list
+#     interval: 86400
+#
+# rules:
+#   - RULE-SET,claude,代理策略组
+# =============================================

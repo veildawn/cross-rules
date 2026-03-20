@@ -9,6 +9,7 @@ cross-rules/
 ├── README.md
 └── mihomo/
     ├── ai.list
+    ├── claude.list
     ├── developer.list
     ├── intl-dns.list
     ├── lan.list
@@ -34,7 +35,8 @@ cross-rules/
 
 | 文件 | 说明 |
 |------|------|
-| `mihomo/ai.list` | AI 网站与工具 |
+| `mihomo/ai.list` | AI 网站与工具（不含 Claude） |
+| `mihomo/claude.list` | Claude / Anthropic 独立规则 |
 | `mihomo/developer.list` | 程序员常用网站 |
 | `mihomo/intl-dns.list` | 国际 DNS 服务 |
 | `mihomo/lan.list` | 局域网 IPv4/IPv6 |
@@ -61,6 +63,12 @@ cross-rules/
 
 ```yaml
 rule-providers:
+  claude:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/claude.list"
+    path: ./ruleset/claude.list
+    interval: 86400
   netflix:
     type: http
     behavior: classical
@@ -75,6 +83,7 @@ rule-providers:
     interval: 86400
 
 rules:
+  - RULE-SET,claude,🤖 Claude
   - RULE-SET,netflix,🎬 Netflix
   - RULE-SET,youtube,📺 YouTube
 ```
