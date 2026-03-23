@@ -9,6 +9,7 @@
 # ---------------------------------------------
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
 
 # =============================================
 # 规则说明:
