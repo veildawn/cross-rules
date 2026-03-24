@@ -12,18 +12,15 @@ DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,cloudflare.net
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
 
 # ---------------------------------------------
 # Google AI - Gemini, Bard, AI Studio
 # ---------------------------------------------
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
@@ -73,7 +70,7 @@ DOMAIN-SUFFIX,mistral.ai
 # Meta AI - LLaMA
 # ---------------------------------------------
 DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,ai.meta.com
+DOMAIN-SUFFIX,meta.com
 
 # ---------------------------------------------
 # xAI - Grok
@@ -122,8 +119,8 @@ DOMAIN-SUFFIX,cursor.so
 # GitHub Copilot - AI 代码补全
 # ---------------------------------------------
 DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN,copilot.github.com
-DOMAIN,api.githubcopilot.com
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubcopilot.com
 
 # ---------------------------------------------
 # Codeium / Windsurf - AI 代码补全
@@ -175,8 +172,8 @@ DOMAIN-SUFFIX,tabnine.com
 # Amazon CodeWhisperer / Q Developer
 # ---------------------------------------------
 DOMAIN-SUFFIX,codewhisperer.aws
-DOMAIN,q.us-east-1.amazonaws.com
-DOMAIN,signin.aws
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,signin.aws
 
 # ---------------------------------------------
 # Kiro - AI 编码助手
