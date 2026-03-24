@@ -176,6 +176,7 @@ DOMAIN-SUFFIX,tabnine.com
 # ---------------------------------------------
 DOMAIN-SUFFIX,codewhisperer.aws
 DOMAIN,q.us-east-1.amazonaws.com
+DOMAIN,signin.aws
 
 # ---------------------------------------------
 # Kiro - AI 编码助手
