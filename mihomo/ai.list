@@ -173,6 +173,7 @@ DOMAIN-SUFFIX,tabnine.com
 # ---------------------------------------------
 DOMAIN-SUFFIX,codewhisperer.aws
 DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,signin.aws
 
 # ---------------------------------------------
