@@ -1,0 +1,25 @@
+# =============================================
+# Kiro - AI 编码助手规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-03-29
+# =============================================
+
+DOMAIN-SUFFIX,kiro.dev
+DOMAIN-SUFFIX,amazonaws.com
+
+# =============================================
+# 规则说明:
+# - DOMAIN-SUFFIX: 匹配域名后缀
+#
+# 使用方式 (在 mihomo 配置中):
+# rule-providers:
+#   kiro:
+#     type: http
+#     behavior: classical
+#     url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/kiro.list"
+#     path: ./ruleset/kiro.list
+#     interval: 86400
+#
+# rules:
+#   - RULE-SET,kiro,代理策略组
+# =============================================
