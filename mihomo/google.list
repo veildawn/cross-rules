@@ -113,6 +113,7 @@ DOMAIN-SUFFIX,android.clients.google.com
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,googletraveladservices.com
