@@ -1,7 +1,7 @@
 # =============================================
 # 娱乐与内容平台规则集
 # 适用于 mihomo (Clash.Meta)
-# 更新日期: 2026-01-12
+# 更新日期: 2026-04-10
 # =============================================
 
 # =============================================
@@ -28,13 +28,16 @@ DOMAIN-SUFFIX,airav.wiki
 DOMAIN-SUFFIX,airav.io
 DOMAIN-SUFFIX,javlibrary.com
 DOMAIN-SUFFIX,avbase.net
+DOMAIN-SUFFIX,avsox.click
 DOMAIN-SUFFIX,arzon.jp
 DOMAIN-SUFFIX,freejavbt.com
 DOMAIN-SUFFIX,jav321.com
 DOMAIN-SUFFIX,minnano-av.com
 DOMAIN-SUFFIX,madou.club
 DOMAIN-SUFFIX,madouqu.com
+DOMAIN-SUFFIX,missav123.com
 DOMAIN-SUFFIX,7mmtv.sx
+DOMAIN-SUFFIX,xchina.co
 DOMAIN-SUFFIX,ffaoa.com
 
 # =============================================
