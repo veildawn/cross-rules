@@ -16,6 +16,7 @@ cross-rules/
     ├── media.list           # 媒体与资源站点
     ├── entertainment.list   # 娱乐与内容平台
     ├── social.list          # 社交媒体规则
+    ├── web3.list            # Web3 与加密货币平台
     └── streaming/           # 流媒体规则 (分服务配置)
         ├── netflix.list
         ├── disney.list
@@ -43,6 +44,7 @@ cross-rules/
 | `mihomo/media.list` | 媒体与资源站点 |
 | `mihomo/entertainment.list` | 娱乐与内容平台 |
 | `mihomo/social.list` | 社交媒体 |
+| `mihomo/web3.list` | Web3 与加密货币平台 |
 
 ### 流媒体规则
 

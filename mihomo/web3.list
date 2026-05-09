@@ -1,0 +1,27 @@
+# =============================================
+# Web3 规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-05-09
+# =============================================
+
+# =============================================
+# Binance
+# =============================================
+DOMAIN-SUFFIX,binance.com
+
+# =============================================
+# 规则说明:
+# - DOMAIN-SUFFIX: 匹配域名后缀
+#
+# 使用方式 (在 mihomo 配置中):
+# rule-providers:
+#   web3:
+#     type: http
+#     behavior: classical
+#     url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/web3.list"
+#     path: ./ruleset/web3.list
+#     interval: 86400
+#
+# rules:
+#   - RULE-SET,web3,代理策略组
+# =============================================
