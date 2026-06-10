@@ -19,6 +19,25 @@ DOMAIN-SUFFIX,bybit.kz
 DOMAIN-SUFFIX,bybitglobal.com
 
 # =============================================
+# Bitget
+# =============================================
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitgetapp.com
+DOMAIN-SUFFIX,bitget.io
+
+# =============================================
+# SAVO - All-In-One Wallet
+# =============================================
+DOMAIN-SUFFIX,sv.me
+DOMAIN-SUFFIX,savo.xyz
+
+# =============================================
+# Wise (TransferWise)
+# =============================================
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,transferwise.com
+
+# =============================================
 # 规则说明:
 # - DOMAIN-SUFFIX: 匹配域名后缀
 #
