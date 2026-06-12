@@ -1,7 +1,7 @@
 # =============================================
 # 程序员常用网站规则集
 # 适用于 mihomo (Clash.Meta)
-# 更新日期: 2026-06-10
+# 更新日期: 2026-06-12
 # =============================================
 
 # =============================================
@@ -229,6 +229,13 @@ DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,workers.dev
 DOMAIN-SUFFIX,pages.dev
+
+# ---------------------------------------------
+# Ubiquiti / UniFi - 网络设备云管理
+# ---------------------------------------------
+DOMAIN-SUFFIX,ui.com
+DOMAIN-SUFFIX,ubiquiti.com
+DOMAIN-SUFFIX,ubnt.com
 
 # =============================================
 # 开发工具与服务
