@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,bybit.eu
 DOMAIN-SUFFIX,bybit.id
 DOMAIN-SUFFIX,bybit.kz
 DOMAIN-SUFFIX,bybitglobal.com
+PROCESS-NAME,com.bybit.app
 
 # =============================================
 # Bitget
