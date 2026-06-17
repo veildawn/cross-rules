@@ -76,6 +76,7 @@ DOMAIN-SUFFIX,meta.com
 # xAI - Grok
 # ---------------------------------------------
 DOMAIN-SUFFIX,x.ai
+PROCESS-NAME,ai.x.grok
 
 # ---------------------------------------------
 # Runway - AI 视频生成
