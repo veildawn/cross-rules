@@ -1,7 +1,7 @@
 # =============================================
 # AI 网站与工具规则集
 # 适用于 mihomo (Clash.Meta)
-# 更新日期: 2026-03-25
+# 更新日期: 2026-06-23
 # =============================================
 
 # ---------------------------------------------
@@ -76,7 +76,25 @@ DOMAIN-SUFFIX,meta.com
 # xAI - Grok
 # ---------------------------------------------
 DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
 PROCESS-NAME,ai.x.grok
+
+# Auth, Accounts & OIDC (CLI login flow)
+DOMAIN-SUFFIX,auth.x.ai
+DOMAIN-SUFFIX,accounts.x.ai
+
+# API, Console & Services
+DOMAIN-SUFFIX,api.x.ai
+DOMAIN-SUFFIX,console.x.ai
+DOMAIN-SUFFIX,credentials.x.ai
+DOMAIN-SUFFIX,registered.x.ai
+
+# Grok infrastructure (CLI chat, code, assets)
+DOMAIN-SUFFIX,cli-chat-proxy.grok.com
+DOMAIN-SUFFIX,assets.grok.com
+DOMAIN-SUFFIX,code.grok.com
+DOMAIN-SUFFIX,computer-hub.grok.com
+
 
 # ---------------------------------------------
 # Runway - AI 视频生成
