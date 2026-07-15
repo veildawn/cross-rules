@@ -1,7 +1,7 @@
 # =============================================
 # Claude / Anthropic 规则集
 # 适用于 mihomo (Clash.Meta)
-# 更新日期: 2026-07-02
+# 更新日期: 2026-07-15
 # =============================================
 
 # ---------------------------------------------
@@ -11,6 +11,8 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,clau.de
 
 # ---------------------------------------------
 # Intercom - Claude.app 客服支持 (被墙)
