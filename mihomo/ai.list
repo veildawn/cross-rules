@@ -145,7 +145,6 @@ DOMAIN-SUFFIX,cursor.so
 # ---------------------------------------------
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,githubcopilot.com
 
 # ---------------------------------------------
 # Codeium / Windsurf - AI 代码补全
