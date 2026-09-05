@@ -21,6 +21,13 @@ DOMAIN-SUFFIX,tmdbimage.org
 DOMAIN-SUFFIX,thetvdb.com
 
 # ---------------------------------------------
+# 音乐元数据与封面 (MusicBrainz / Cover Art Archive)
+# ---------------------------------------------
+DOMAIN-SUFFIX,musicbrainz.org
+DOMAIN-SUFFIX,coverartarchive.org
+DOMAIN-SUFFIX,archive.org
+
+# ---------------------------------------------
 # 图床 / 演员头像 / 海报
 # ---------------------------------------------
 DOMAIN-SUFFIX,imgur.com
