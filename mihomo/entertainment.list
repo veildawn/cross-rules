@@ -85,7 +85,13 @@ DOMAIN-SUFFIX,nhentai.net
 # =============================================
 # P2P 服务
 # =============================================
+DOMAIN-SUFFIX,nyaa.si
 DOMAIN-SUFFIX,sukebei.nyaa.si
+DOMAIN-SUFFIX,btdig.com
+DOMAIN-SUFFIX,1337x.to
+DOMAIN-SUFFIX,torrentgalaxy.to
+DOMAIN-SUFFIX,tgx.rs
+DOMAIN-SUFFIX,eztv.re
 DOMAIN-SUFFIX,javtorrent.re
 DOMAIN-SUFFIX,tokyomotion.net
 DOMAIN-SUFFIX,pttime.org
