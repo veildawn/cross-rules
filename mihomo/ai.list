@@ -1,7 +1,7 @@
 # =============================================
 # AI 网站与工具规则集
 # 适用于 mihomo (Clash.Meta)
-# 更新日期: 2026-07-23
+# 更新日期: 2026-11-02
 # =============================================
 
 # ---------------------------------------------
@@ -67,10 +67,38 @@ DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,mistral.ai
 
 # ---------------------------------------------
-# Meta AI - LLaMA
+# Meta Muse - 个人 AI Agent（muse.ai，网页 / iOS / Android / Mac）
+# Meta AI / Llama 仍走 meta.ai、meta.com
+# 登录页提交到 auth.meta.com；验证码邮件来自 email.meta.com（仅 MX）
 # ---------------------------------------------
+# 产品、账号与云端 VM
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,museai.com
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN-SUFFIX,ecto1usercontent.com
+DOMAIN-SUFFIX,ecto1.ai
+DOMAIN-SUFFIX,hatch.club
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,meta.com
+
+# 网页 CSP 与客户端会访问的 Meta 实时通道和 CDN（与 social.list 重叠）
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,cdn.whatsapp.net
+DOMAIN-SUFFIX,oculuscdn.com
+DOMAIN-SUFFIX,meta-agents-apps.workers.dev
+
+# 原生客户端隐私中继（应用内字符串；网页 CSP 未列出）
+DOMAIN-SUFFIX,atmeta.com
+DOMAIN,meta.privacy-gateway.cloudflare.com
+DOMAIN,meta.hpke-keys.privacy-gateway.cloudflare.com
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
 
 # ---------------------------------------------
 # xAI - Grok

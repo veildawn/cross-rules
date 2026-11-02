@@ -36,7 +36,7 @@ cross-rules/
 
 | 文件 | 说明 |
 |------|------|
-| `mihomo/ai.list` | AI 网站与工具（不含 Claude） |
+| `mihomo/ai.list` | AI 网站与工具（不含 Claude，含 Meta Muse） |
 | `mihomo/claude.list` | Claude / Anthropic 独立规则 |
 | `mihomo/developer.list` | 程序员常用网站 |
 | `mihomo/intl-dns.list` | 国际 DNS 服务 |
