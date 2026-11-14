@@ -23,9 +23,7 @@ DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,withyoutube.com
-DOMAIN-SUFFIX,youtu.be
 DOMAIN-KEYWORD,youtube
 
 # YouTube Music
-DOMAIN-SUFFIX,music.youtube.com
 DOMAIN-SUFFIX,music.youtubemusic.com

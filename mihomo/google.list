@@ -27,7 +27,6 @@ DOMAIN-SUFFIX,google.org
 DOMAIN-SUFFIX,google.ai
 DOMAIN-SUFFIX,google.dev
 DOMAIN-SUFFIX,google.app
-DOMAIN-KEYWORD,google
 
 # =============================================
 # Google 静态资源 / CDN
