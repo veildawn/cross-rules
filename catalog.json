@@ -1,0 +1,295 @@
+{
+  "mihomo/ai.list": {
+    "title_zh": "Cross · AI 平台合集",
+    "title_en": "Cross · AI Platforms",
+    "description_zh": "主流通用 AI 网站与大模型服务规则集",
+    "description_en": "Curated general AI platforms & LLM services",
+    "category": "ai",
+    "tags": [
+      "ai",
+      "llm"
+    ]
+  },
+  "mihomo/claude.list": {
+    "title_zh": "Cross · Claude / Anthropic",
+    "title_en": "Cross · Claude / Anthropic",
+    "description_zh": "Anthropic Claude Web、Console 与 API 专属规则集",
+    "description_en": "Dedicated Anthropic Claude Web, Console & API rules",
+    "category": "ai",
+    "tags": [
+      "ai",
+      "claude",
+      "anthropic"
+    ]
+  },
+  "mihomo/cloudflare.list": {
+    "title_zh": "Cloudflare IP 网段",
+    "title_en": "Cloudflare IP Ranges",
+    "description_zh": "Cloudflare 公布的 IPv4 和 IPv6 地址段",
+    "description_en": "Cloudflare’s published IPv4 and IPv6 ranges",
+    "category": "dev",
+    "tags": [
+      "cloudflare",
+      "cdn",
+      "ip"
+    ]
+  },
+  "mihomo/developer.list": {
+    "title_zh": "Cross · 开发者平台",
+    "title_en": "Cross · Developer Tools",
+    "description_zh": "GitHub、容器镜像及常用开发者文档与工具域名",
+    "description_en": "Developer platforms, repositories, registries & docs",
+    "category": "dev",
+    "tags": [
+      "dev",
+      "github",
+      "developer"
+    ]
+  },
+  "mihomo/entertainment.list": {
+    "title_zh": "Cross · 综合娱乐平台",
+    "title_en": "Cross · Entertainment",
+    "description_zh": "国际泛娱乐、直播与内容社区平台规则集",
+    "description_en": "International entertainment and content platform rules",
+    "category": "streaming",
+    "tags": [
+      "entertainment",
+      "streaming"
+    ]
+  },
+  "mihomo/google.list": {
+    "title_zh": "Google 服务",
+    "title_en": "Google Services",
+    "description_zh": "Google 核心服务、API 和静态资源域名",
+    "description_en": "Google core services, API and static asset domains",
+    "category": "dev",
+    "tags": [
+      "google",
+      "search"
+    ]
+  },
+  "mihomo/intl-dns.list": {
+    "title_zh": "Cross · 国际 DNS 服务",
+    "title_en": "Cross · International DNS",
+    "description_zh": "海外公共 DoH / DoT 与权威解析服务地址集合",
+    "description_en": "International public DoH/DoT & DNS resolver endpoints",
+    "category": "dev",
+    "tags": [
+      "dns",
+      "doh",
+      "dev"
+    ]
+  },
+  "mihomo/kiro.list": {
+    "title_zh": "Kiro 编程助手",
+    "title_en": "Kiro Coding Assistant",
+    "description_zh": "Kiro 与相关 AWS 服务域名",
+    "description_en": "Kiro and related AWS service domains",
+    "category": "ai",
+    "tags": [
+      "kiro",
+      "aws",
+      "coding"
+    ]
+  },
+  "mihomo/lan.list": {
+    "title_zh": "Cross · 局域网与私网段",
+    "title_en": "Cross · LAN & Private CIDRs",
+    "description_zh": "RFC1918 / IPv6 ULA 局域网直连网段与本地域规则",
+    "description_en": "Local network IPv4/IPv6 CIDR ranges and private suffixes",
+    "category": "cn_direct",
+    "tags": [
+      "lan",
+      "private",
+      "direct"
+    ]
+  },
+  "mihomo/media.list": {
+    "title_zh": "Cross · 通用媒体与资源",
+    "title_en": "Cross · General Media",
+    "description_zh": "海外常用媒体站与资源分发域名规则集",
+    "description_en": "General international media and asset delivery domains",
+    "category": "streaming",
+    "tags": [
+      "media",
+      "streaming"
+    ]
+  },
+  "mihomo/rate-limited.list": {
+    "title_zh": "限流敏感站点",
+    "title_en": "Rate-Limited Sites",
+    "description_zh": "容易触发访问限流的站点",
+    "description_en": "Sites prone to access rate limits",
+    "category": "other",
+    "tags": [
+      "rate-limit"
+    ]
+  },
+  "mihomo/social.list": {
+    "title_zh": "Cross · 国际社交平台",
+    "title_en": "Cross · Social Platforms",
+    "description_zh": "主流国际社交媒体与即时通讯域名及网段",
+    "description_en": "International social media and messaging platforms",
+    "category": "social",
+    "tags": [
+      "social",
+      "messaging"
+    ]
+  },
+  "mihomo/streaming/appletv.list": {
+    "title_zh": "Cross · Apple TV+",
+    "title_en": "Cross · Apple TV+",
+    "description_zh": "Apple TV+ 影音流媒体与区域播放接口规则",
+    "description_en": "Apple TV+ streaming and playback endpoints",
+    "category": "streaming",
+    "tags": [
+      "streaming",
+      "appletv",
+      "apple"
+    ]
+  },
+  "mihomo/streaming/bilibili-intl.list": {
+    "title_zh": "Cross · 哔哩哔哩国际版",
+    "title_en": "Cross · Bilibili Intl",
+    "description_zh": "Bilibili 国际版 (BStation) 视频流与接口规则",
+    "description_en": "Bilibili International (BStation) streaming rules",
+    "category": "streaming",
+    "tags": [
+      "streaming",
+      "bilibili",
+      "bstar"
+    ]
+  },
+  "mihomo/streaming/disney.list": {
+    "title_zh": "Cross · Disney+ / Hulu / ESPN+",
+    "title_en": "Cross · Disney+ / Hulu / ESPN+",
+    "description_zh": "Disney+、Hulu 与 ESPN+ 流媒体与鉴权域名集合",
+    "description_en": "Disney+, Hulu & ESPN+ streaming and auth domains",
+    "category": "streaming",
+    "tags": [
+      "streaming",
+      "disney",
+      "hulu",
+      "espn"
+    ]
+  },
+  "mihomo/streaming/dmm.list": {
+    "title_zh": "DMM 日本服务",
+    "title_en": "DMM Japan",
+    "description_zh": "DMM 日本站、视频 CDN 与静态资源域名",
+    "description_en": "DMM Japan portal, video CDN and static asset domains",
+    "category": "streaming",
+    "tags": [
+      "dmm",
+      "japan"
+    ]
+  },
+  "mihomo/streaming/hbomax.list": {
+    "title_zh": "Cross · Max (HBO Max)",
+    "title_en": "Cross · Max (HBO Max)",
+    "description_zh": "Max / HBO Max 影音点播与 CDN 域名规则集",
+    "description_en": "Max / HBO Max video streaming & CDN rules",
+    "category": "streaming",
+    "tags": [
+      "streaming",
+      "hbomax",
+      "max"
+    ]
+  },
+  "mihomo/streaming/netflix.list": {
+    "title_zh": "Cross · Netflix 流媒体",
+    "title_en": "Cross · Netflix",
+    "description_zh": "Netflix 主站、播放 CDN 与客户端解锁规则集",
+    "description_en": "Netflix portal, CDN & streaming unlock rules",
+    "category": "streaming",
+    "tags": [
+      "streaming",
+      "netflix",
+      "video"
+    ]
+  },
+  "mihomo/streaming/primevideo.list": {
+    "title_zh": "Cross · Amazon Prime Video",
+    "title_en": "Cross · Prime Video",
+    "description_zh": "Amazon Prime Video 流媒体与分发节点规则",
+    "description_en": "Amazon Prime Video streaming & delivery domains",
+    "category": "streaming",
+    "tags": [
+      "streaming",
+      "primevideo",
+      "amazon"
+    ]
+  },
+  "mihomo/streaming/spotify.list": {
+    "title_zh": "Cross · Spotify 音乐",
+    "title_en": "Cross · Spotify",
+    "description_zh": "Spotify 音频流媒体、登录与客户端规则集",
+    "description_en": "Spotify audio streaming and client rules",
+    "category": "streaming",
+    "tags": [
+      "streaming",
+      "spotify",
+      "music"
+    ]
+  },
+  "mihomo/streaming/steam.list": {
+    "title_zh": "Steam 商店与社区",
+    "title_en": "Steam Store & Community",
+    "description_zh": "Steam 商店、社区与游戏下载域名",
+    "description_en": "Steam store, community and game download domains",
+    "category": "gaming",
+    "tags": [
+      "steam",
+      "valve",
+      "gaming"
+    ]
+  },
+  "mihomo/streaming/tiktok.list": {
+    "title_zh": "Cross · TikTok 国际版",
+    "title_en": "Cross · TikTok",
+    "description_zh": "TikTok 应用接口、媒体 CDN 与分发规则集",
+    "description_en": "TikTok app API, media CDN & delivery rules",
+    "category": "streaming",
+    "tags": [
+      "streaming",
+      "tiktok",
+      "video"
+    ]
+  },
+  "mihomo/streaming/twitch.list": {
+    "title_zh": "Cross · Twitch 直播",
+    "title_en": "Cross · Twitch",
+    "description_zh": "Twitch 直播流、聊天长连与静态资源规则集",
+    "description_en": "Twitch live streams, chat & static asset rules",
+    "category": "streaming",
+    "tags": [
+      "streaming",
+      "twitch",
+      "live"
+    ]
+  },
+  "mihomo/streaming/youtube.list": {
+    "title_zh": "Cross · YouTube / YouTube Music",
+    "title_en": "Cross · YouTube / Music",
+    "description_zh": "YouTube 视频流、静态资源与 YouTube Music 规则",
+    "description_en": "YouTube video streaming, CDN & YouTube Music rules",
+    "category": "streaming",
+    "tags": [
+      "streaming",
+      "youtube",
+      "music"
+    ]
+  },
+  "mihomo/web3.list": {
+    "title_zh": "Cross · Web3 与加密服务",
+    "title_en": "Cross · Web3 & Crypto",
+    "description_zh": "链上节点、钱包与主流 Web3 应用服务规则集",
+    "description_en": "Web3 protocols, wallets & blockchain services",
+    "category": "dev",
+    "tags": [
+      "web3",
+      "crypto",
+      "blockchain"
+    ]
+  }
+}

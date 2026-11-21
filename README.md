@@ -2,7 +2,15 @@
 
 规则集合仓库，用于存放和管理各类规则配置。
 
-## 目录结构
+## Conflux 商店目录
+
+从 `v0.0.15` 起，Conflux 自动收录 `main` 分支 [mihomo 目录](mihomo/)及其子目录内的 `.list` 文件。添加文件后，商店在目录缓存到期后的下一次访问时刷新，正常缓存 5 分钟。
+
+在 [catalog.json](catalog.json) 中按规则文件的仓库相对路径维护 `title_zh`、`title_en`、`description_zh` 和 `description_en`。可以另填 `category` 和 `tags` 供商店筛选与搜索。中英文名称都未填写时，商店显示文件名。只填写一种语言时，两种界面语言都显示已填写的内容。
+
+可用分类为 `ai`、`streaming`、`social`、`dev`、`cn_direct`、`privacy`、`gaming` 和 `other`。省略分类时，`mihomo/streaming/` 下的规则归入 `streaming`，其余规则归入 `other`。
+
+## 目录示例
 
 ```
 cross-rules/
@@ -30,7 +38,7 @@ cross-rules/
         └── bilibili-intl.list
 ```
 
-## 规则列表
+## 常用规则
 
 ### 通用规则
 
