@@ -17,14 +17,18 @@ cross-rules/
 ├── README.md
 └── mihomo/
     ├── ai.list
+    ├── apple.list
     ├── claude.list
     ├── developer.list
+    ├── google.list
     ├── intl-dns.list
     ├── lan.list
     ├── media.list           # 媒体与资源站点
+    ├── microsoft365.list
     ├── entertainment.list   # 娱乐与内容平台
     ├── social.list          # 社交媒体规则
     ├── web3.list            # Web3 与加密货币平台
+    ├── wikimedia.list
     └── streaming/           # 流媒体规则 (分服务配置)
         ├── netflix.list
         ├── disney.list
@@ -45,14 +49,18 @@ cross-rules/
 | 文件 | 说明 |
 |------|------|
 | `mihomo/ai.list` | AI 网站与工具（不含 Claude，含 Meta Muse） |
+| `mihomo/apple.list` | Apple 账户、iCloud 与 App Store |
 | `mihomo/claude.list` | Claude / Anthropic 独立规则 |
 | `mihomo/developer.list` | 程序员常用网站 |
+| `mihomo/google.list` | Google 核心服务、静态资源和分享短链 |
 | `mihomo/intl-dns.list` | 国际 DNS 服务 |
 | `mihomo/lan.list` | 局域网 IPv4/IPv6 |
 | `mihomo/media.list` | 媒体与资源站点 |
+| `mihomo/microsoft365.list` | Microsoft 365、Outlook、OneDrive、SharePoint 与 Teams |
 | `mihomo/entertainment.list` | 娱乐与内容平台 |
 | `mihomo/social.list` | 社交媒体 |
 | `mihomo/web3.list` | Web3 与加密货币平台 |
+| `mihomo/wikimedia.list` | 维基百科、维基共享资源与维基数据 |
 
 ### 流媒体规则
 
@@ -71,23 +79,31 @@ cross-rules/
 
 ## 使用方式
 
+`.list` 文件使用 `behavior: classical` 和 `format: text`。Mihomo 按顺序匹配规则，同时启用以下规则集时请注意顺序。
+
+- Apple TV+ 放在 Apple iCloud 与 App Store 之前，让播放流优先匹配 Apple TV+ 规则。
+- Microsoft 365 放在 Steam 之前，让 OneDrive 和 SharePoint 的 Akamai 域名优先匹配 Microsoft 365 规则。
+
 ```yaml
 rule-providers:
   claude:
     type: http
     behavior: classical
+    format: text
     url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/claude.list"
     path: ./ruleset/claude.list
     interval: 86400
   netflix:
     type: http
     behavior: classical
+    format: text
     url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/streaming/netflix.list"
     path: ./ruleset/netflix.list
     interval: 86400
   youtube:
     type: http
     behavior: classical
+    format: text
     url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/streaming/youtube.list"
     path: ./ruleset/youtube.list
     interval: 86400

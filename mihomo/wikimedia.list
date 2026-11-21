@@ -1,0 +1,10 @@
+# =============================================
+# 维基百科、维基共享资源与维基数据规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-11-22
+# 项目参考 https://wikimediafoundation.org/what-we-do/wikimedia-projects/
+# =============================================
+
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikidata.org

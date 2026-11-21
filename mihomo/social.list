@@ -1,7 +1,7 @@
 # =============================================
 # 社交媒体规则集
 # 适用于 mihomo (Clash.Meta)
-# 更新日期: 2026-05-09
+# 更新日期: 2026-11-22
 # =============================================
 
 # =============================================
@@ -83,6 +83,7 @@ DOMAIN-KEYWORD,whatsapp
 # =============================================
 # Threads (Meta)
 # =============================================
+DOMAIN-SUFFIX,threads.com
 DOMAIN-SUFFIX,threads.net
 
 # =============================================
@@ -93,15 +94,20 @@ DOMAIN-SUFFIX,m.me
 DOMAIN-SUFFIX,messengerdevelopers.com
 
 # =============================================
-# Line
+# LINE
 # =============================================
 DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,lin.ee
 DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-apps-rc.com
+DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,gcld-line.com
 DOMAIN-SUFFIX,line.naver.jp
 DOMAIN-SUFFIX,linecorp.com
 DOMAIN-SUFFIX,linevoom.me
-DOMAIN-KEYWORD,line
+DOMAIN-SUFFIX,line.biz
+DOMAIN-SUFFIX,linebiz.com
 
 # =============================================
 # Snapchat
@@ -188,6 +194,7 @@ DOMAIN-SUFFIX,vk.me
 #   social:
 #     type: http
 #     behavior: classical
+#     format: text
 #     url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/social.list"
 #     path: ./ruleset/social.list
 #     interval: 86400

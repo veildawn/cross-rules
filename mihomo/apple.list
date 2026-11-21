@@ -1,0 +1,31 @@
+# =============================================
+# Apple iCloud 与 App Store 规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-11-22
+# 域名参考 https://support.apple.com/en-us/101555
+# =============================================
+
+# Apple 账户
+DOMAIN,account.apple.com
+DOMAIN,appleid.apple.com
+DOMAIN,gsa.apple.com
+DOMAIN,idmsa.apple.com
+
+# iCloud、iWork 与内容分发
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud.apple.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,gc.apple.com
+DOMAIN-SUFFIX,iwork.apple.com
+
+# App Store 安装、更新与内容
+# 同时启用 Apple TV+ 时，把 appletv 规则排在 apple 之前。
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,mzstatic.com

@@ -86,6 +86,7 @@ DOMAIN-SUFFIX,maps.google.com
 DOMAIN-SUFFIX,mapsengine.google.com
 DOMAIN,maps.googleapis.com
 DOMAIN,maps.gstatic.com
+DOMAIN,maps.app.goo.gl
 
 # =============================================
 # Google Cloud
@@ -132,6 +133,8 @@ DOMAIN,hangouts.google.com
 # =============================================
 # Google 其他服务
 # =============================================
+DOMAIN-SUFFIX,g.co
+DOMAIN-SUFFIX,goo.gle
 DOMAIN-SUFFIX,googlegroups.com
 DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,blogspot.com
@@ -199,6 +202,7 @@ IP-CIDR6,2c0f:fb50::/32,no-resolve
 #   google:
 #     type: http
 #     behavior: classical
+#     format: text
 #     url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/google.list"
 #     path: ./ruleset/google.list
 #     interval: 86400

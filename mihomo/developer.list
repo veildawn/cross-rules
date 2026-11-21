@@ -380,8 +380,11 @@ DOMAIN-SUFFIX,gitbook.com
 # ---------------------------------------------
 # Notion - 文档协作 (部分功能)
 # ---------------------------------------------
+DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,notionusercontent.com
+DOMAIN,secure.notion-static.com
 
 # =============================================
 # 其他开发资源
@@ -482,6 +485,7 @@ DOMAIN-SUFFIX,webshare.io
 #   developer:
 #     type: http
 #     behavior: classical
+#     format: text
 #     url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/developer.list"
 #     path: ./ruleset/developer.list
 #     interval: 86400

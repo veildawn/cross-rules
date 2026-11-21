@@ -1,0 +1,70 @@
+# =============================================
+# Microsoft 365 规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-11-22
+# 域名参考 https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges
+# OneDrive 个人版 https://learn.microsoft.com/en-us/sharepoint/required-urls-and-ports
+# =============================================
+
+# Microsoft 365 门户、网页版 Office 与静态资源
+DOMAIN-SUFFIX,microsoft365.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,officeapps.live.com
+DOMAIN-SUFFIX,msocdn.com
+DOMAIN-SUFFIX,static.microsoft
+DOMAIN-SUFFIX,usercontent.microsoft
+DOMAIN,m365.cloud.microsoft
+DOMAIN,office.live.com
+DOMAIN,word.cloud.microsoft
+DOMAIN,excel.cloud.microsoft
+DOMAIN,powerpoint.cloud.microsoft
+DOMAIN,forms.cloud.microsoft
+DOMAIN,onenote.cloud.microsoft
+DOMAIN-SUFFIX,onenote.com
+
+# Outlook 个人版和 Exchange Online
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,outlookmobile.com
+DOMAIN,outlook.cloud.microsoft
+DOMAIN,outlook.live.com
+
+# OneDrive、分享链接与 SharePoint
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,storage.live.com
+DOMAIN-SUFFIX,files.1drv.com
+DOMAIN-SUFFIX,1drv.ms
+DOMAIN-SUFFIX,docs.live.net
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,svc.ms
+DOMAIN,g.live.com
+DOMAIN,oneclient.sfx.ms
+DOMAIN,p.sfx.ms
+DOMAIN,spoprod-a.akamaihd.net
+
+# Teams 个人版与工作版
+DOMAIN-SUFFIX,teams.cloud.microsoft
+DOMAIN-SUFFIX,teams.microsoft.com
+DOMAIN-SUFFIX,teams.live.com
+DOMAIN-SUFFIX,lync.com
+DOMAIN-SUFFIX,skype.com
+
+# Microsoft 账户、Entra ID 与 Microsoft Graph
+DOMAIN-SUFFIX,auth.microsoft.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,microsoftonline-p.com
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msauthimages.net
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msftauthimages.net
+DOMAIN-SUFFIX,msftidentity.com
+DOMAIN,account.live.com
+DOMAIN,account.microsoft.com
+DOMAIN,auth.gfx.ms
+DOMAIN,graph.microsoft.com
+DOMAIN,login.live.com
+DOMAIN,login.microsoft.com
+DOMAIN,login.windows.net

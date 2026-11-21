@@ -10,6 +10,18 @@
       "llm"
     ]
   },
+  "mihomo/apple.list": {
+    "title_zh": "Cross · Apple iCloud 与 App Store",
+    "title_en": "Cross · Apple iCloud & App Store",
+    "description_zh": "Apple 账户、iCloud 同步及 App Store 安装与更新域名",
+    "description_en": "Apple Account, iCloud sync, and App Store download and update domains",
+    "category": "other",
+    "tags": [
+      "apple",
+      "icloud",
+      "appstore"
+    ]
+  },
   "mihomo/claude.list": {
     "title_zh": "Cross · Claude / Anthropic",
     "title_en": "Cross · Claude / Anthropic",
@@ -113,6 +125,21 @@
     "tags": [
       "media",
       "streaming"
+    ]
+  },
+  "mihomo/microsoft365.list": {
+    "title_zh": "Cross · Microsoft 365",
+    "title_en": "Cross · Microsoft 365",
+    "description_zh": "网页版 Office、Outlook、OneDrive、SharePoint、Teams 与登录域名",
+    "description_en": "Office on the web, Outlook, OneDrive, SharePoint, Teams, and sign-in domains",
+    "category": "other",
+    "tags": [
+      "microsoft365",
+      "office",
+      "outlook",
+      "onedrive",
+      "sharepoint",
+      "teams"
     ]
   },
   "mihomo/rate-limited.list": {
@@ -290,6 +317,18 @@
       "web3",
       "crypto",
       "blockchain"
+    ]
+  },
+  "mihomo/wikimedia.list": {
+    "title_zh": "Cross · 维基百科与维基媒体",
+    "title_en": "Cross · Wikipedia & Wikimedia",
+    "description_zh": "维基百科、维基共享资源与维基数据的页面和媒体域名",
+    "description_en": "Wikipedia, Wikimedia Commons, and Wikidata domains for pages and media",
+    "category": "other",
+    "tags": [
+      "wikipedia",
+      "wikimedia",
+      "wikidata"
     ]
   }
 }
